@@ -27,6 +27,7 @@ for _ in range(3):
     else:
         break
 
+#escape for two hour later
 ct = 2*60*60
 time.sleep(ct)
 
