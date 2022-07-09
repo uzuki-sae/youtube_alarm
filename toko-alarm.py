@@ -3,13 +3,13 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 import time
 
-extension_path = '/home/uzuki/.config/google-chrome-beta/Default/Extensions/cfhdojbkjhnklbpkdaibdccddilifddb/3.14_0.crx'
-profile_path = '/home/uzuki/.config/google-chrome-beta/Default'
+extension_path = '/your crx file path'
+profile_path = 'chrome profile path'
 options = webdriver.ChromeOptions()
 options.add_argument(f'--user-data-dir={profile_path}, --profile-directory=Profile1, --no-sandbox, --disable-infobars')
 options.add_extension(extension_path)
 driver_path = Service('/usr/local/bin/chromedriver')
-url = "https://www.youtube.com/channel/UCXRlIK3Cw_TJIQC5kSJJQMg"
+url = "the home page of youtuber"
 driver = webdriver.Chrome(options = options, service = driver_path)
 driver.implicitly_wait(30)
 
