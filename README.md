@@ -1,4 +1,2 @@
-# youtube_alarm
-python program for opening a window of a life of any youtuber automatically.  例えば戌亥とこの朝雑談
-It will get plug in with chrome such as AdBlocker.
-It requires selenium and webdriver. Please check webdriver if it is in the right version.
+このプログラムは、ライバーのホームページから最新の配信を開けるために使います。普段視聴しているライバーは突発的に朝配信を放送しますので、リンクがなくても朝配信の時間帯に配信にアクセスして、自分に目を覚ますプログラムを組みました。（YouTubeがアーキテクチャ更新しているため、コードは現在使用不可能です。
+require:chromedriver
